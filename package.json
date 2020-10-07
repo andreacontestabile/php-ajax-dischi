@@ -1,0 +1,25 @@
+{
+  "name": "php-ajax-dischi",
+  "version": "1.0.0",
+  "description": "php-ajax-dischi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreacontestabile/php-ajax-dischi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreacontestabile/php-ajax-dischi/issues"
+  },
+  "homepage": "https://github.com/andreacontestabile/php-ajax-dischi#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.0-beta.4",
+    "sass": "^1.26.12",
+    "sass-loader": "^8.0.2"
+  }
+}
