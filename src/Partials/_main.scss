@@ -1,0 +1,11 @@
+main {
+  padding: 80px 0;
+  background-color: $darkColor;
+
+  ul.albums-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

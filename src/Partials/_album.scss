@@ -1,0 +1,26 @@
+li.albums-list-item {
+  width: 220px;
+  height: 400px;
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: $lightColor;
+  color: #fff;
+  text-align: center;
+
+  img {
+    height: 200px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .album-details {
+    h3 {
+      color: $detailsColor;
+      font-size: 18px;
+    }
+  }
+}

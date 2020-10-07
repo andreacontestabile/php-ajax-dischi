@@ -1,0 +1,17 @@
+header {
+  height: 60px;
+  padding: 5px 0;
+  background-color: $lightColor;
+
+  .container {
+    height: 100%;
+  }
+
+  .logo {
+    height: 100%;
+
+    img {
+      height: 100%;
+    }
+  }
+}
