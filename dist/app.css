@@ -59,6 +59,7 @@ li.albums-list-item img {
 li.albums-list-item h2 {
   font-size: 20px;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 li.albums-list-item .album-details h3 {
   color: #62666B;
