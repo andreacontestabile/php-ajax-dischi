@@ -4,14 +4,24 @@ header {
   background-color: $lightColor;
 
   .container {
+    display: flex;
+    align-items: center;
     height: 100%;
   }
 
   .logo {
     height: 100%;
+    margin-right: 40px;
 
     img {
       height: 100%;
+    }
+  }
+
+  .filter {
+    label {
+      margin-right: 5px;
+      color: #fff;
     }
   }
 }
