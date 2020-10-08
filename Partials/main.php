@@ -6,7 +6,7 @@
   </div>
 </main>
 
-  <script src="dist/app.js" charset="utf-8"></script>
+
   <script id="album-template" type="text/x-handlebars-template">
     <li class="albums-list-item">
       <img src="{{poster}}" alt="">
@@ -17,5 +17,9 @@
       </div>
     </li>
   </script>
+  <script id="option-template" type="text/x-handlebars-template">
+    <option value="{{author}}">{{author}}</option>
+  </script>
+  <script src="dist/app.js" charset="utf-8"></script>
 </body>
 </html>

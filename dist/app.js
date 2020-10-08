@@ -21,6 +21,7 @@ $(document).ready(function () {
     "method": "GET",
     "success": function success(data) {
       renderAlbums(data);
+      renderSelectList(data);
     },
     "error": function error(_error) {
       alert("error");
@@ -73,6 +74,28 @@ function renderSelect(data, selectValue) {
 
       $(".albums-list").append(html);
     }
+  }
+}
+
+function renderSelectList(data) {
+  var authorsList = [];
+
+  for (var i = 0; i < data.length; i++) {
+    var author = data[i].author;
+
+    if (!authorsList.includes(author)) {
+      authorsList.push(author);
+    }
+  }
+
+  for (var i = 0; i < authorsList.length; i++) {
+    var source = $("#option-template").html();
+    var template = Handlebars.compile(source);
+    var context = {
+      "author": authorsList[i]
+    };
+    var html = template(context);
+    $("select.author-filter").append(html);
   }
 }
 
